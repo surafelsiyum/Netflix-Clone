@@ -12,7 +12,7 @@ const Banner = () => {
             const index = Math.floor(Math.random() * res.data.results.length)
             setMovie(res.data.results[index]);
         }).catch(err => console.log(err))
-        console.log(request);
+        // console.log(request);
     }, []);
 
 function count(str, n) {
